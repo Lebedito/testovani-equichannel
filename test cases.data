@@ -1,0 +1,68 @@
+registrace
+- in: všechny položky vyplněny; out: registrace
+- in: nevyplněno Jméno; out: chybová hláška
+- in: nevyplněno Příjmení; out: chybová hláška
+- in: nevyplněna E-mailová adresa; out: chybová hláška
+- in: nevyplněno Přihlašovací heslo; out: chybová hláška
+- in: nevyplněno Potvrzení hesla; out: chybová hláška
+- in: nevyplněno Město; out: chybová hláška
+- in: nevyplněna Přezdívka; out: OK
+- in: vyplněna Přezdívka, která je již registrována; out: chybová hláška
+- in: vyplněn e-mail, který je již registrován; out: chybová hláška
+- in: Přihlašovací heslo a Potvrzení hesla se neshodují; out: chybová hláška
+- in: nezaškrtnuta žádná z možností v položce Ostatní uživatelé uvidí; out: chybová hláška
+- Nastavení profilu_in: uživatel zaregistrován; out: položky v profilu vyplněny dle zadání
+
+   registrace_neplatné formáty e-mailu
+   - in: @gmail.com; out: chybová hláška
+   - in: abcgmail.com; out: chybová hláška
+   - in: abc@.com; out: chybová hláška
+   - in: abc@gmailcom; out: chybová hláška
+   - in: abc@gmail.; out: chybová hláška
+
+přihlášení
+- in: vyplněna správná e-mailová adresa + heslo; out: přihlášení do systému
+- in: e-mailová adresa nevyplněna, heslo nevyplněno; out: chybová hláška
+- in: e-mailová adresa nevyplněna, heslo vyplněno; out: chybová hláška
+- in: e-mailová adresa vyplněna, heslo nevyplněno; out: chybová hláška
+- in: vyplněna chybná e-mailová adresa + chybné heslo; out: chybová hláška
+- in: vyplněna chybná e-mailová adresa + správné heslo; out: chybová hláška
+- in: vyplněna správná e-mailová adresa + chybné heslo; out: chybová hláška
+
+odhlášení
+- in: uživatel klikne na tlačítko Odhlásit; out: dojde k odhlášení uživatele
+
+změna údajů v Nastavení profilu uživatele
+- in: změna položky Jméno; out: OK
+- in: změna položky Příjmení; out: OK
+- in: změna položky Město; out: OK
+- in: změna položky Přezdívka; out: OK
+- in: změna nabídky v položce Ostatní užívatelé uvidí; out: OK
+
+   změna hesla  
+   - in: položky Nové heslo a Nové heslo znovu se shodují; out: OK
+   - in: položky Nové heslo a Nové heslo znovu se neshodují; out: chybová hláška
+   - in: položka Stávající heslo nevyplněna; out: chybová hláška
+   - in: položka Stávající heslo vyplněna chybně; out: chybová hláška
+   
+inzerce
+
+   vložení inzerátu
+   - in: všechny položky vyplněny; out: vložení inzerátu
+   - in: nevyplněna položka Název inzerátu; out: chybová hláška
+   - in: nevyplněna položka Obsah; out: chybová hláška
+   
+   editace inzerátu
+   
+   editace inzerátu
+
+diskuze
+
+   založení nového tématu
+   - in: všechny položky vyplněny; out: založení tématu
+   - in: nevyplněna položka Název tématu; out: chybová hláška
+   - in: nevyplněna položka Váš příspěvek; out: chybová hláška
+   
+   přidání příspěvku do diskuze
+   - in: vyplněna položka Váš příspěvek; out: přidání příspěvku
+   - in: nevyplněna položka Váš příspěvek; out: chybová hláška
