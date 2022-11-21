@@ -53,8 +53,10 @@ inzerce
    - in: nevyplněna položka Obsah; out: chybová hláška
    
    editace inzerátu
+   - in: edituji inzerát; out: editace se uloží dle zadání
    
-   editace inzerátu
+   smazání inzerátu
+   - in: kliknu na "smazat"; out: inzerát se smaže
 
 diskuze
 
