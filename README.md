@@ -13,6 +13,6 @@ testování webu https://equichannel.cz
 
 ![Equichannel_TR-přehled06](https://user-images.githubusercontent.com/117156625/203103675-f7fa5fed-ea66-49ea-8e07-f71db1103ab5.png)
 
-https://user-images.githubusercontent.com/117156625/203106982-98a8b35b-ae77-462d-8217-5dfeeeff9fa8.mp4
+https://user-images.githubusercontent.com/117156625/203130606-230ac614-3b2d-4c5d-89a9-e01dd7770802.mp4
 
-https://user-images.githubusercontent.com/117156625/203107010-bc3ad36d-6fcc-4585-a88c-bce33a25a692.mp4
+https://user-images.githubusercontent.com/117156625/203130626-e6347b07-745c-4a12-b24e-8093fb688374.mp4
